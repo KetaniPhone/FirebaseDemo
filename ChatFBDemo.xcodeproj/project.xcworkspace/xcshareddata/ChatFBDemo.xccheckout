@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9378D905-184B-4045-8DCF-4DC3F030DC28</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ChatFBDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D69FA7F4CA49F8425BA6F219E0205637F226716A</key>
+		<string>https://github.com/KetaniPhone/FirebaseDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ChatFBDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D69FA7F4CA49F8425BA6F219E0205637F226716A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/KetaniPhone/FirebaseDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D69FA7F4CA49F8425BA6F219E0205637F226716A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D69FA7F4CA49F8425BA6F219E0205637F226716A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FirebaseDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
