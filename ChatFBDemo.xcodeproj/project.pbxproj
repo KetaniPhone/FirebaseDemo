@@ -15,10 +15,12 @@
 		161978FD1BC2B557003E3B6F /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 161978FC1BC2B557003E3B6F /* libicucore.dylib */; };
 		161978FF1BC2B55C003E3B6F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161978FE1BC2B55C003E3B6F /* Security.framework */; };
 		161979011BC2B561003E3B6F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161979001BC2B561003E3B6F /* CFNetwork.framework */; };
+		161979081BC2B706003E3B6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 161979051BC2B706003E3B6F /* AppDelegate.m */; };
+		161979091BC2B706003E3B6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 161979051BC2B706003E3B6F /* AppDelegate.m */; };
+		161979111BC2B729003E3B6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1619790E1BC2B729003E3B6F /* ViewController.m */; };
+		161979121BC2B729003E3B6F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1619790E1BC2B729003E3B6F /* ViewController.m */; };
 		16E095FC1BC2AF5300D96415 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E095FB1BC2AF5300D96415 /* main.m */; };
-		16E095FF1BC2AF5300D96415 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E095FE1BC2AF5300D96415 /* AppDelegate.m */; };
 		16E096021BC2AF5300D96415 /* ChatFBDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16E096001BC2AF5300D96415 /* ChatFBDemo.xcdatamodeld */; };
-		16E096051BC2AF5300D96415 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E096041BC2AF5300D96415 /* ViewController.m */; };
 		16E096081BC2AF5300D96415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E096061BC2AF5300D96415 /* Main.storyboard */; };
 		16E0960A1BC2AF5300D96415 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16E096091BC2AF5300D96415 /* Images.xcassets */; };
 		16E0960D1BC2AF5300D96415 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16E0960B1BC2AF5300D96415 /* LaunchScreen.xib */; };
@@ -43,14 +45,14 @@
 		161978FC1BC2B557003E3B6F /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		161978FE1BC2B55C003E3B6F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		161979001BC2B561003E3B6F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		161979041BC2B706003E3B6F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		161979051BC2B706003E3B6F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1619790D1BC2B729003E3B6F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1619790E1BC2B729003E3B6F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		16E095F61BC2AF5300D96415 /* ChatFBDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatFBDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16E095FA1BC2AF5300D96415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16E095FB1BC2AF5300D96415 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		16E095FD1BC2AF5300D96415 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		16E095FE1BC2AF5300D96415 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		16E096011BC2AF5300D96415 /* ChatFBDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChatFBDemo.xcdatamodel; sourceTree = "<group>"; };
-		16E096031BC2AF5300D96415 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		16E096041BC2AF5300D96415 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		16E096071BC2AF5300D96415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16E096091BC2AF5300D96415 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		16E0960C1BC2AF5300D96415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -85,7 +87,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16E095ED1BC2AF5300D96415 = {
+		161979021BC2B6C5003E3B6F /* FrameWorks */ = {
 			isa = PBXGroup;
 			children = (
 				161979001BC2B561003E3B6F /* CFNetwork.framework */,
@@ -94,6 +96,49 @@
 				161978FA1BC2B550003E3B6F /* libc++.dylib */,
 				161978F81BC2B549003E3B6F /* SystemConfiguration.framework */,
 				161978F61BC2B543003E3B6F /* CoreGraphics.framework */,
+				161978F31BC2B400003E3B6F /* Firebase.framework */,
+			);
+			name = FrameWorks;
+			sourceTree = "<group>";
+		};
+		161979031BC2B706003E3B6F /* VMC */ = {
+			isa = PBXGroup;
+			children = (
+				161979041BC2B706003E3B6F /* AppDelegate.h */,
+				161979051BC2B706003E3B6F /* AppDelegate.m */,
+				1619790C1BC2B729003E3B6F /* Controller */,
+				1619790F1BC2B729003E3B6F /* Model */,
+				161979101BC2B729003E3B6F /* View */,
+			);
+			path = VMC;
+			sourceTree = "<group>";
+		};
+		1619790C1BC2B729003E3B6F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1619790D1BC2B729003E3B6F /* ViewController.h */,
+				1619790E1BC2B729003E3B6F /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1619790F1BC2B729003E3B6F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		161979101BC2B729003E3B6F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		16E095ED1BC2AF5300D96415 = {
+			isa = PBXGroup;
+			children = (
 				16E095F81BC2AF5300D96415 /* ChatFBDemo */,
 				16E096151BC2AF5300D96415 /* ChatFBDemoTests */,
 				16E095F71BC2AF5300D96415 /* Products */,
@@ -112,11 +157,8 @@
 		16E095F81BC2AF5300D96415 /* ChatFBDemo */ = {
 			isa = PBXGroup;
 			children = (
-				161978F31BC2B400003E3B6F /* Firebase.framework */,
-				16E095FD1BC2AF5300D96415 /* AppDelegate.h */,
-				16E095FE1BC2AF5300D96415 /* AppDelegate.m */,
-				16E096031BC2AF5300D96415 /* ViewController.h */,
-				16E096041BC2AF5300D96415 /* ViewController.m */,
+				161979031BC2B706003E3B6F /* VMC */,
+				161979021BC2B6C5003E3B6F /* FrameWorks */,
 				16E096061BC2AF5300D96415 /* Main.storyboard */,
 				16E096091BC2AF5300D96415 /* Images.xcassets */,
 				16E0960B1BC2AF5300D96415 /* LaunchScreen.xib */,
@@ -253,9 +295,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				16E096021BC2AF5300D96415 /* ChatFBDemo.xcdatamodeld in Sources */,
-				16E095FF1BC2AF5300D96415 /* AppDelegate.m in Sources */,
-				16E096051BC2AF5300D96415 /* ViewController.m in Sources */,
 				16E095FC1BC2AF5300D96415 /* main.m in Sources */,
+				161979111BC2B729003E3B6F /* ViewController.m in Sources */,
+				161979081BC2B706003E3B6F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +305,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				161979121BC2B729003E3B6F /* ViewController.m in Sources */,
+				161979091BC2B706003E3B6F /* AppDelegate.m in Sources */,
 				16E096191BC2AF5300D96415 /* ChatFBDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
