@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		161978F41BC2B400003E3B6F /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161978F31BC2B400003E3B6F /* Firebase.framework */; };
 		161978F51BC2B400003E3B6F /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161978F31BC2B400003E3B6F /* Firebase.framework */; };
+		161978F71BC2B543003E3B6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161978F61BC2B543003E3B6F /* CoreGraphics.framework */; };
+		161978F91BC2B549003E3B6F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161978F81BC2B549003E3B6F /* SystemConfiguration.framework */; };
+		161978FB1BC2B550003E3B6F /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 161978FA1BC2B550003E3B6F /* libc++.dylib */; };
+		161978FD1BC2B557003E3B6F /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 161978FC1BC2B557003E3B6F /* libicucore.dylib */; };
+		161978FF1BC2B55C003E3B6F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161978FE1BC2B55C003E3B6F /* Security.framework */; };
+		161979011BC2B561003E3B6F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161979001BC2B561003E3B6F /* CFNetwork.framework */; };
 		16E095FC1BC2AF5300D96415 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E095FB1BC2AF5300D96415 /* main.m */; };
 		16E095FF1BC2AF5300D96415 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E095FE1BC2AF5300D96415 /* AppDelegate.m */; };
 		16E096021BC2AF5300D96415 /* ChatFBDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16E096001BC2AF5300D96415 /* ChatFBDemo.xcdatamodeld */; };
@@ -31,6 +37,12 @@
 
 /* Begin PBXFileReference section */
 		161978F31BC2B400003E3B6F /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		161978F61BC2B543003E3B6F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		161978F81BC2B549003E3B6F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		161978FA1BC2B550003E3B6F /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		161978FC1BC2B557003E3B6F /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		161978FE1BC2B55C003E3B6F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		161979001BC2B561003E3B6F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		16E095F61BC2AF5300D96415 /* ChatFBDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatFBDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16E095FA1BC2AF5300D96415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16E095FB1BC2AF5300D96415 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -52,6 +64,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				161979011BC2B561003E3B6F /* CFNetwork.framework in Frameworks */,
+				161978FF1BC2B55C003E3B6F /* Security.framework in Frameworks */,
+				161978FD1BC2B557003E3B6F /* libicucore.dylib in Frameworks */,
+				161978FB1BC2B550003E3B6F /* libc++.dylib in Frameworks */,
+				161978F91BC2B549003E3B6F /* SystemConfiguration.framework in Frameworks */,
+				161978F71BC2B543003E3B6F /* CoreGraphics.framework in Frameworks */,
 				161978F41BC2B400003E3B6F /* Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,6 +88,12 @@
 		16E095ED1BC2AF5300D96415 = {
 			isa = PBXGroup;
 			children = (
+				161979001BC2B561003E3B6F /* CFNetwork.framework */,
+				161978FE1BC2B55C003E3B6F /* Security.framework */,
+				161978FC1BC2B557003E3B6F /* libicucore.dylib */,
+				161978FA1BC2B550003E3B6F /* libc++.dylib */,
+				161978F81BC2B549003E3B6F /* SystemConfiguration.framework */,
+				161978F61BC2B543003E3B6F /* CoreGraphics.framework */,
 				16E095F81BC2AF5300D96415 /* ChatFBDemo */,
 				16E096151BC2AF5300D96415 /* ChatFBDemoTests */,
 				16E095F71BC2AF5300D96415 /* Products */,

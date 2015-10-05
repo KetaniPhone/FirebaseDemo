@@ -7,8 +7,14 @@
 //
 
 #import "ViewController.h"
+#import <Firebase/Firebase.h>
 
-@interface ViewController ()
+#define kFirechatNS @"https://chatnatest.firebaseio.com/"
+#define kEmailId    @"ketan@gmail.com"
+
+@interface ViewController () {
+    Firebase *ref;
+}
 
 @end
 
@@ -16,12 +22,72 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    ref = [[Firebase alloc] initWithUrl:kFirechatNS];
+    [self createUser];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+//-(void)removeUser {
+//    [ref removeUser:kEmailId password:@"123456" withCompletionBlock:^(NSError *error) {
+//        if (error) {
+//            NSLog(@"Error");
+//            [self createUser];
+//        } else {
+//            NSLog(@"Successfully Deleted");
+//            [self createUser];
+//        }
+//    }];
+//}
+
+-(void)createUser {
+    
+    [ref createUser:kEmailId password:@"123456" withValueCompletionBlock:^(NSError *error, NSDictionary *result) {
+        if (error) {
+            NSLog(@"Already Exist");
+            [self loginUser];
+        } else {
+            NSString *uid = [result objectForKey:@"uid"];
+            NSLog(@"Successfully created user account with uid: %@", uid);
+            [self loginUser];
+        }
+        
+    }];
+    
+}
+
+-(void)loginUser {
+    
+    [ref authUser:kEmailId password:@"123456" withCompletionBlock:^(NSError *error, FAuthData *authData) {
+        if (error) {
+            NSLog(@"Error");
+        } else {
+            NSLog(@"Successfully created user account with authData: %@", authData);
+            [self createUserEntryWithId:[authData.auth valueForKey:@"uid"]];
+        }
+        
+    }];
+    
+}
+
+-(void)createUserEntryWithId:(NSString *)strId {
+    
+    Firebase *postRef = [ref childByAppendingPath: @"userList"];
+    postRef = [postRef childByAppendingPath: strId];
+    postRef = [postRef childByAppendingPath: @"Profile"];
+    NSDictionary *post = @{
+                           @"email": @"ketan@gmail.com",
+                           @"firstName": @"Ketan",
+                           @"lastName": @"Patel"
+                           };
+    [postRef setValue: post];
+    
+    
+    [postRef observeEventType:FEventTypeValue withBlock:^(FDataSnapshot *snapshot) {
+        NSLog(@"User  ::     %@", snapshot.value[@"email"]);
+        NSLog(@"fName ::     %@", snapshot.value[@"firstName"]);
+        NSLog(@"LName ::     %@", snapshot.value[@"lastName"]);
+    }];
+    
 }
 
 @end
