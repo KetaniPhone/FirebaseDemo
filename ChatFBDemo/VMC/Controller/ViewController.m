@@ -11,6 +11,7 @@
 
 #define kFirechatNS @"https://chatnatest.firebaseio.com/"
 #define kEmailId    @"ketan@gmail.com"
+#define kPassword   @"123456"
 
 @interface ViewController () {
     Firebase *ref;
@@ -28,7 +29,7 @@
 }
 
 //-(void)removeUser {
-//    [ref removeUser:kEmailId password:@"123456" withCompletionBlock:^(NSError *error) {
+//    [ref removeUser:kEmailId password:kPassword withCompletionBlock:^(NSError *error) {
 //        if (error) {
 //            NSLog(@"Error");
 //            [self createUser];
@@ -41,7 +42,7 @@
 
 -(void)createUser {
     
-    [ref createUser:kEmailId password:@"123456" withValueCompletionBlock:^(NSError *error, NSDictionary *result) {
+    [ref createUser:kEmailId password:kPassword withValueCompletionBlock:^(NSError *error, NSDictionary *result) {
         if (error) {
             NSLog(@"Already Exist");
             [self loginUser];
@@ -57,7 +58,7 @@
 
 -(void)loginUser {
     
-    [ref authUser:kEmailId password:@"123456" withCompletionBlock:^(NSError *error, FAuthData *authData) {
+    [ref authUser:kEmailId password:kPassword withCompletionBlock:^(NSError *error, FAuthData *authData) {
         if (error) {
             NSLog(@"Error");
         } else {
