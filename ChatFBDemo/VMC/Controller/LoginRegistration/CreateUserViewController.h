@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SVProgressHUD.h"
 
 @interface CreateUserViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UITextField *txtEmail;

@@ -32,7 +32,6 @@
     [self setInputbar];
     [self setKeyboardControl];
     [self getMessages];
-    //Do any additional setup after loading the view.
 }
 
 - (void)setKeyboardControl
@@ -40,16 +39,9 @@
     __weak Inputbar *inputbar = _inputBar;
     __weak UITableView *tableView = _tblMessages;
     
-//    __weak ConversationViewController *weakSelf = self;
-    
     self.view.keyboardTriggerOffset = inputbar.frame.size.height;
+    
     [self.view addKeyboardPanningWithActionHandler:^(CGRect keyboardFrameInView, BOOL opening, BOOL closing) {
-        /*
-         Try not to call "self" inside this block (retain cycle).
-         But if you do, make sure to remove DAKeyboardControl
-         when you are done with the view controller by calling:
-         [self.view removeKeyboardControl];
-         */
         
         CGRect toolBarFrame = inputbar.frame;
         toolBarFrame.origin.y = keyboardFrameInView.origin.y - toolBarFrame.size.height;
@@ -58,8 +50,6 @@
         CGRect tableViewFrame = tableView.frame;
         tableViewFrame.size.height = toolBarFrame.origin.y - 64;
         tableView.frame = tableViewFrame;
-        
-//        [controller tableViewScrollToBottomAnimated:NO];
     }];
 }
 
@@ -75,26 +65,17 @@
 #pragma mark - Inputbar Delegate
 -(void)inputbarDidPressRightButton:(Inputbar *)inputbar
 {
-    //NSLog(@"Input bar right button pressed %@", inputbar.text);
     [FirebaseSharedManager sendMessage:inputbar.text inConversation:[self.conversationDetail objectForKey:@"conversationId"]];
 }
 
 -(void)inputbarDidPressLeftButton:(Inputbar *)inputbar
 {
     NSLog(@"Input bar left button pressed");
-
 }
 
 -(void)inputbarDidChangeHeight:(CGFloat)new_height
 {
-    //Update DAKeyboardControl
     self.view.keyboardTriggerOffset = new_height;
-}
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    //Dispose of any resources that can be recreated.
 }
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section

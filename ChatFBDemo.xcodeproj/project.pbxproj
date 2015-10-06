@@ -7,32 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		160896311BC3F56300C9A0E0 /* FirebaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 160896301BC3F56300C9A0E0 /* FirebaseManager.m */; settings = {ASSET_TAGS = (); }; };
-		160896321BC3F56300C9A0E0 /* FirebaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 160896301BC3F56300C9A0E0 /* FirebaseManager.m */; settings = {ASSET_TAGS = (); }; };
-		1608963F1BC3F68B00C9A0E0 /* ConversationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 160896341BC3F68B00C9A0E0 /* ConversationViewController.m */; settings = {ASSET_TAGS = (); }; };
-		160896401BC3F68B00C9A0E0 /* ConversationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 160896341BC3F68B00C9A0E0 /* ConversationViewController.m */; settings = {ASSET_TAGS = (); }; };
-		160896411BC3F68B00C9A0E0 /* CreateUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 160896361BC3F68B00C9A0E0 /* CreateUserViewController.m */; settings = {ASSET_TAGS = (); }; };
-		160896421BC3F68B00C9A0E0 /* CreateUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 160896361BC3F68B00C9A0E0 /* CreateUserViewController.m */; settings = {ASSET_TAGS = (); }; };
-		160896431BC3F68B00C9A0E0 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 160896381BC3F68B00C9A0E0 /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
-		160896441BC3F68B00C9A0E0 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 160896381BC3F68B00C9A0E0 /* HomeViewController.m */; settings = {ASSET_TAGS = (); }; };
-		160896451BC3F68B00C9A0E0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608963A1BC3F68B00C9A0E0 /* LoginViewController.m */; settings = {ASSET_TAGS = (); }; };
-		160896461BC3F68B00C9A0E0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608963A1BC3F68B00C9A0E0 /* LoginViewController.m */; settings = {ASSET_TAGS = (); }; };
-		160896471BC3F68B00C9A0E0 /* UsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608963C1BC3F68B00C9A0E0 /* UsersViewController.m */; settings = {ASSET_TAGS = (); }; };
-		160896481BC3F68B00C9A0E0 /* UsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608963C1BC3F68B00C9A0E0 /* UsersViewController.m */; settings = {ASSET_TAGS = (); }; };
-		160896491BC3F68B00C9A0E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608963E1BC3F68B00C9A0E0 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
-		1608964A1BC3F68B00C9A0E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608963E1BC3F68B00C9A0E0 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
-		1608964C1BC3F71800C9A0E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1608964B1BC3F71800C9A0E0 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
-		1608964D1BC3F71800C9A0E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1608964B1BC3F71800C9A0E0 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
-		160896521BC3F73B00C9A0E0 /* Inputbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608964F1BC3F73B00C9A0E0 /* Inputbar.m */; settings = {ASSET_TAGS = (); }; };
-		160896531BC3F73B00C9A0E0 /* Inputbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608964F1BC3F73B00C9A0E0 /* Inputbar.m */; settings = {ASSET_TAGS = (); }; };
-		160896541BC3F73B00C9A0E0 /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 160896511BC3F73B00C9A0E0 /* MessageCell.m */; settings = {ASSET_TAGS = (); }; };
-		160896551BC3F73B00C9A0E0 /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 160896511BC3F73B00C9A0E0 /* MessageCell.m */; settings = {ASSET_TAGS = (); }; };
-		160896591BC3F77900C9A0E0 /* DAKeyboardControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 160896581BC3F77900C9A0E0 /* DAKeyboardControl.m */; settings = {ASSET_TAGS = (); }; };
-		1608965A1BC3F77900C9A0E0 /* DAKeyboardControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 160896581BC3F77900C9A0E0 /* DAKeyboardControl.m */; settings = {ASSET_TAGS = (); }; };
-		1608965F1BC3F7A100C9A0E0 /* HPGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608965C1BC3F7A100C9A0E0 /* HPGrowingTextView.m */; settings = {ASSET_TAGS = (); }; };
-		160896601BC3F7A100C9A0E0 /* HPGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608965C1BC3F7A100C9A0E0 /* HPGrowingTextView.m */; settings = {ASSET_TAGS = (); }; };
-		160896611BC3F7A100C9A0E0 /* HPTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608965E1BC3F7A100C9A0E0 /* HPTextViewInternal.m */; settings = {ASSET_TAGS = (); }; };
-		160896621BC3F7A100C9A0E0 /* HPTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608965E1BC3F7A100C9A0E0 /* HPTextViewInternal.m */; settings = {ASSET_TAGS = (); }; };
+		160896311BC3F56300C9A0E0 /* FirebaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 160896301BC3F56300C9A0E0 /* FirebaseManager.m */; };
+		160896321BC3F56300C9A0E0 /* FirebaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 160896301BC3F56300C9A0E0 /* FirebaseManager.m */; };
+		1608964C1BC3F71800C9A0E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1608964B1BC3F71800C9A0E0 /* Main.storyboard */; };
+		1608964D1BC3F71800C9A0E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1608964B1BC3F71800C9A0E0 /* Main.storyboard */; };
+		160896521BC3F73B00C9A0E0 /* Inputbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608964F1BC3F73B00C9A0E0 /* Inputbar.m */; };
+		160896531BC3F73B00C9A0E0 /* Inputbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608964F1BC3F73B00C9A0E0 /* Inputbar.m */; };
+		160896541BC3F73B00C9A0E0 /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 160896511BC3F73B00C9A0E0 /* MessageCell.m */; };
+		160896551BC3F73B00C9A0E0 /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 160896511BC3F73B00C9A0E0 /* MessageCell.m */; };
+		160896591BC3F77900C9A0E0 /* DAKeyboardControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 160896581BC3F77900C9A0E0 /* DAKeyboardControl.m */; };
+		1608965A1BC3F77900C9A0E0 /* DAKeyboardControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 160896581BC3F77900C9A0E0 /* DAKeyboardControl.m */; };
+		1608965F1BC3F7A100C9A0E0 /* HPGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608965C1BC3F7A100C9A0E0 /* HPGrowingTextView.m */; };
+		160896601BC3F7A100C9A0E0 /* HPGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608965C1BC3F7A100C9A0E0 /* HPGrowingTextView.m */; };
+		160896611BC3F7A100C9A0E0 /* HPTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608965E1BC3F7A100C9A0E0 /* HPTextViewInternal.m */; };
+		160896621BC3F7A100C9A0E0 /* HPTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1608965E1BC3F7A100C9A0E0 /* HPTextViewInternal.m */; };
 		161978F41BC2B400003E3B6F /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161978F31BC2B400003E3B6F /* Firebase.framework */; };
 		161978F51BC2B400003E3B6F /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161978F31BC2B400003E3B6F /* Firebase.framework */; };
 		161978F71BC2B543003E3B6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161978F61BC2B543003E3B6F /* CoreGraphics.framework */; };
@@ -43,6 +31,24 @@
 		161979011BC2B561003E3B6F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 161979001BC2B561003E3B6F /* CFNetwork.framework */; };
 		161979081BC2B706003E3B6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 161979051BC2B706003E3B6F /* AppDelegate.m */; };
 		161979091BC2B706003E3B6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 161979051BC2B706003E3B6F /* AppDelegate.m */; };
+		16BA13201BC3FD4200E6ADB3 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA131C1BC3FD4200E6ADB3 /* SVIndefiniteAnimatedView.m */; };
+		16BA13211BC3FD4200E6ADB3 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA131C1BC3FD4200E6ADB3 /* SVIndefiniteAnimatedView.m */; };
+		16BA13221BC3FD4200E6ADB3 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 16BA131D1BC3FD4200E6ADB3 /* SVProgressHUD.bundle */; };
+		16BA13231BC3FD4200E6ADB3 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 16BA131D1BC3FD4200E6ADB3 /* SVProgressHUD.bundle */; };
+		16BA13241BC3FD4200E6ADB3 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA131F1BC3FD4200E6ADB3 /* SVProgressHUD.m */; };
+		16BA13251BC3FD4200E6ADB3 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA131F1BC3FD4200E6ADB3 /* SVProgressHUD.m */; };
+		16BA132B1BC3FE0D00E6ADB3 /* CreateUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA13281BC3FE0D00E6ADB3 /* CreateUserViewController.m */; };
+		16BA132C1BC3FE0D00E6ADB3 /* CreateUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA13281BC3FE0D00E6ADB3 /* CreateUserViewController.m */; };
+		16BA132D1BC3FE0D00E6ADB3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA132A1BC3FE0D00E6ADB3 /* LoginViewController.m */; };
+		16BA132E1BC3FE0D00E6ADB3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA132A1BC3FE0D00E6ADB3 /* LoginViewController.m */; };
+		16BA13371BC3FE3F00E6ADB3 /* UsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA13341BC3FE3F00E6ADB3 /* UsersViewController.m */; };
+		16BA13381BC3FE3F00E6ADB3 /* UsersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA13341BC3FE3F00E6ADB3 /* UsersViewController.m */; };
+		16BA133B1BC3FE7F00E6ADB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA133A1BC3FE7F00E6ADB3 /* ViewController.m */; };
+		16BA133C1BC3FE7F00E6ADB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA133A1BC3FE7F00E6ADB3 /* ViewController.m */; };
+		16BA13401BC3FEBC00E6ADB3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA133F1BC3FEBC00E6ADB3 /* HomeViewController.m */; };
+		16BA13411BC3FEBC00E6ADB3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA133F1BC3FEBC00E6ADB3 /* HomeViewController.m */; };
+		16BA13451BC3FEE200E6ADB3 /* ConversationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA13441BC3FEE200E6ADB3 /* ConversationViewController.m */; };
+		16BA13461BC3FEE200E6ADB3 /* ConversationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16BA13441BC3FEE200E6ADB3 /* ConversationViewController.m */; };
 		16E095FC1BC2AF5300D96415 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E095FB1BC2AF5300D96415 /* main.m */; };
 		16E096021BC2AF5300D96415 /* ChatFBDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16E096001BC2AF5300D96415 /* ChatFBDemo.xcdatamodeld */; };
 		16E0960A1BC2AF5300D96415 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16E096091BC2AF5300D96415 /* Images.xcassets */; };
@@ -63,18 +69,6 @@
 /* Begin PBXFileReference section */
 		1608962F1BC3F56300C9A0E0 /* FirebaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirebaseManager.h; sourceTree = "<group>"; };
 		160896301BC3F56300C9A0E0 /* FirebaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirebaseManager.m; sourceTree = "<group>"; };
-		160896331BC3F68B00C9A0E0 /* ConversationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationViewController.h; sourceTree = "<group>"; };
-		160896341BC3F68B00C9A0E0 /* ConversationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationViewController.m; sourceTree = "<group>"; };
-		160896351BC3F68B00C9A0E0 /* CreateUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateUserViewController.h; sourceTree = "<group>"; };
-		160896361BC3F68B00C9A0E0 /* CreateUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateUserViewController.m; sourceTree = "<group>"; };
-		160896371BC3F68B00C9A0E0 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		160896381BC3F68B00C9A0E0 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		160896391BC3F68B00C9A0E0 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		1608963A1BC3F68B00C9A0E0 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		1608963B1BC3F68B00C9A0E0 /* UsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersViewController.h; sourceTree = "<group>"; };
-		1608963C1BC3F68B00C9A0E0 /* UsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersViewController.m; sourceTree = "<group>"; };
-		1608963D1BC3F68B00C9A0E0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1608963E1BC3F68B00C9A0E0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1608964B1BC3F71800C9A0E0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1608964E1BC3F73B00C9A0E0 /* Inputbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inputbar.h; sourceTree = "<group>"; };
 		1608964F1BC3F73B00C9A0E0 /* Inputbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Inputbar.m; sourceTree = "<group>"; };
@@ -95,6 +89,23 @@
 		161979001BC2B561003E3B6F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		161979041BC2B706003E3B6F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		161979051BC2B706003E3B6F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16BA131B1BC3FD4200E6ADB3 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		16BA131C1BC3FD4200E6ADB3 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		16BA131D1BC3FD4200E6ADB3 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		16BA131E1BC3FD4200E6ADB3 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		16BA131F1BC3FD4200E6ADB3 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		16BA13271BC3FE0D00E6ADB3 /* CreateUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateUserViewController.h; sourceTree = "<group>"; };
+		16BA13281BC3FE0D00E6ADB3 /* CreateUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateUserViewController.m; sourceTree = "<group>"; };
+		16BA13291BC3FE0D00E6ADB3 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		16BA132A1BC3FE0D00E6ADB3 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		16BA13331BC3FE3F00E6ADB3 /* UsersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersViewController.h; sourceTree = "<group>"; };
+		16BA13341BC3FE3F00E6ADB3 /* UsersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersViewController.m; sourceTree = "<group>"; };
+		16BA13391BC3FE7F00E6ADB3 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16BA133A1BC3FE7F00E6ADB3 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16BA133E1BC3FEBC00E6ADB3 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		16BA133F1BC3FEBC00E6ADB3 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		16BA13431BC3FEE200E6ADB3 /* ConversationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationViewController.h; sourceTree = "<group>"; };
+		16BA13441BC3FEE200E6ADB3 /* ConversationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationViewController.m; sourceTree = "<group>"; };
 		16E095F61BC2AF5300D96415 /* ChatFBDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatFBDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16E095FA1BC2AF5300D96415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16E095FB1BC2AF5300D96415 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -135,6 +146,7 @@
 		160896561BC3F77900C9A0E0 /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				16BA131A1BC3FD4200E6ADB3 /* SVProgressHUD */,
 				1608965B1BC3F7A100C9A0E0 /* HPGrowingTextView.h */,
 				1608965C1BC3F7A100C9A0E0 /* HPGrowingTextView.m */,
 				1608965D1BC3F7A100C9A0E0 /* HPTextViewInternal.h */,
@@ -174,18 +186,10 @@
 		1619790C1BC2B729003E3B6F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				160896331BC3F68B00C9A0E0 /* ConversationViewController.h */,
-				160896341BC3F68B00C9A0E0 /* ConversationViewController.m */,
-				160896351BC3F68B00C9A0E0 /* CreateUserViewController.h */,
-				160896361BC3F68B00C9A0E0 /* CreateUserViewController.m */,
-				160896371BC3F68B00C9A0E0 /* HomeViewController.h */,
-				160896381BC3F68B00C9A0E0 /* HomeViewController.m */,
-				160896391BC3F68B00C9A0E0 /* LoginViewController.h */,
-				1608963A1BC3F68B00C9A0E0 /* LoginViewController.m */,
-				1608963B1BC3F68B00C9A0E0 /* UsersViewController.h */,
-				1608963C1BC3F68B00C9A0E0 /* UsersViewController.m */,
-				1608963D1BC3F68B00C9A0E0 /* ViewController.h */,
-				1608963E1BC3F68B00C9A0E0 /* ViewController.m */,
+				16BA13261BC3FE0D00E6ADB3 /* LoginRegistration */,
+				16BA133D1BC3FEBC00E6ADB3 /* ResentChat */,
+				16BA13321BC3FE3F00E6ADB3 /* UserList */,
+				16BA13421BC3FEE200E6ADB3 /* Chat */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -208,6 +212,58 @@
 				160896511BC3F73B00C9A0E0 /* MessageCell.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		16BA131A1BC3FD4200E6ADB3 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				16BA131B1BC3FD4200E6ADB3 /* SVIndefiniteAnimatedView.h */,
+				16BA131C1BC3FD4200E6ADB3 /* SVIndefiniteAnimatedView.m */,
+				16BA131D1BC3FD4200E6ADB3 /* SVProgressHUD.bundle */,
+				16BA131E1BC3FD4200E6ADB3 /* SVProgressHUD.h */,
+				16BA131F1BC3FD4200E6ADB3 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		16BA13261BC3FE0D00E6ADB3 /* LoginRegistration */ = {
+			isa = PBXGroup;
+			children = (
+				16BA13391BC3FE7F00E6ADB3 /* ViewController.h */,
+				16BA133A1BC3FE7F00E6ADB3 /* ViewController.m */,
+				16BA13271BC3FE0D00E6ADB3 /* CreateUserViewController.h */,
+				16BA13281BC3FE0D00E6ADB3 /* CreateUserViewController.m */,
+				16BA13291BC3FE0D00E6ADB3 /* LoginViewController.h */,
+				16BA132A1BC3FE0D00E6ADB3 /* LoginViewController.m */,
+			);
+			path = LoginRegistration;
+			sourceTree = "<group>";
+		};
+		16BA13321BC3FE3F00E6ADB3 /* UserList */ = {
+			isa = PBXGroup;
+			children = (
+				16BA13331BC3FE3F00E6ADB3 /* UsersViewController.h */,
+				16BA13341BC3FE3F00E6ADB3 /* UsersViewController.m */,
+			);
+			path = UserList;
+			sourceTree = "<group>";
+		};
+		16BA133D1BC3FEBC00E6ADB3 /* ResentChat */ = {
+			isa = PBXGroup;
+			children = (
+				16BA133E1BC3FEBC00E6ADB3 /* HomeViewController.h */,
+				16BA133F1BC3FEBC00E6ADB3 /* HomeViewController.m */,
+			);
+			path = ResentChat;
+			sourceTree = "<group>";
+		};
+		16BA13421BC3FEE200E6ADB3 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				16BA13431BC3FEE200E6ADB3 /* ConversationViewController.h */,
+				16BA13441BC3FEE200E6ADB3 /* ConversationViewController.m */,
+			);
+			path = Chat;
 			sourceTree = "<group>";
 		};
 		16E095ED1BC2AF5300D96415 = {
@@ -352,6 +408,7 @@
 				1608964C1BC3F71800C9A0E0 /* Main.storyboard in Resources */,
 				16E0960D1BC2AF5300D96415 /* LaunchScreen.xib in Resources */,
 				16E0960A1BC2AF5300D96415 /* Images.xcassets in Resources */,
+				16BA13221BC3FD4200E6ADB3 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +417,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1608964D1BC3F71800C9A0E0 /* Main.storyboard in Resources */,
+				16BA13231BC3FD4200E6ADB3 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,21 +428,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				160896471BC3F68B00C9A0E0 /* UsersViewController.m in Sources */,
-				160896451BC3F68B00C9A0E0 /* LoginViewController.m in Sources */,
+				16BA133B1BC3FE7F00E6ADB3 /* ViewController.m in Sources */,
 				16E096021BC2AF5300D96415 /* ChatFBDemo.xcdatamodeld in Sources */,
 				16E095FC1BC2AF5300D96415 /* main.m in Sources */,
 				160896591BC3F77900C9A0E0 /* DAKeyboardControl.m in Sources */,
-				160896491BC3F68B00C9A0E0 /* ViewController.m in Sources */,
+				16BA13371BC3FE3F00E6ADB3 /* UsersViewController.m in Sources */,
+				16BA13241BC3FD4200E6ADB3 /* SVProgressHUD.m in Sources */,
 				160896311BC3F56300C9A0E0 /* FirebaseManager.m in Sources */,
-				160896411BC3F68B00C9A0E0 /* CreateUserViewController.m in Sources */,
+				16BA13401BC3FEBC00E6ADB3 /* HomeViewController.m in Sources */,
+				16BA132D1BC3FE0D00E6ADB3 /* LoginViewController.m in Sources */,
+				16BA132B1BC3FE0D00E6ADB3 /* CreateUserViewController.m in Sources */,
 				161979081BC2B706003E3B6F /* AppDelegate.m in Sources */,
 				160896611BC3F7A100C9A0E0 /* HPTextViewInternal.m in Sources */,
 				1608965F1BC3F7A100C9A0E0 /* HPGrowingTextView.m in Sources */,
+				16BA13201BC3FD4200E6ADB3 /* SVIndefiniteAnimatedView.m in Sources */,
+				16BA13451BC3FEE200E6ADB3 /* ConversationViewController.m in Sources */,
 				160896521BC3F73B00C9A0E0 /* Inputbar.m in Sources */,
 				160896541BC3F73B00C9A0E0 /* MessageCell.m in Sources */,
-				160896431BC3F68B00C9A0E0 /* HomeViewController.m in Sources */,
-				1608963F1BC3F68B00C9A0E0 /* ConversationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,20 +452,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1608964A1BC3F68B00C9A0E0 /* ViewController.m in Sources */,
+				16BA13381BC3FE3F00E6ADB3 /* UsersViewController.m in Sources */,
+				16BA13461BC3FEE200E6ADB3 /* ConversationViewController.m in Sources */,
 				1608965A1BC3F77900C9A0E0 /* DAKeyboardControl.m in Sources */,
 				160896321BC3F56300C9A0E0 /* FirebaseManager.m in Sources */,
-				160896481BC3F68B00C9A0E0 /* UsersViewController.m in Sources */,
-				160896401BC3F68B00C9A0E0 /* ConversationViewController.m in Sources */,
+				16BA13211BC3FD4200E6ADB3 /* SVIndefiniteAnimatedView.m in Sources */,
 				160896601BC3F7A100C9A0E0 /* HPGrowingTextView.m in Sources */,
 				160896621BC3F7A100C9A0E0 /* HPTextViewInternal.m in Sources */,
+				16BA132E1BC3FE0D00E6ADB3 /* LoginViewController.m in Sources */,
+				16BA13411BC3FEBC00E6ADB3 /* HomeViewController.m in Sources */,
 				161979091BC2B706003E3B6F /* AppDelegate.m in Sources */,
+				16BA132C1BC3FE0D00E6ADB3 /* CreateUserViewController.m in Sources */,
+				16BA133C1BC3FE7F00E6ADB3 /* ViewController.m in Sources */,
+				16BA13251BC3FD4200E6ADB3 /* SVProgressHUD.m in Sources */,
 				16E096191BC2AF5300D96415 /* ChatFBDemoTests.m in Sources */,
-				160896461BC3F68B00C9A0E0 /* LoginViewController.m in Sources */,
-				160896421BC3F68B00C9A0E0 /* CreateUserViewController.m in Sources */,
 				160896551BC3F73B00C9A0E0 /* MessageCell.m in Sources */,
 				160896531BC3F73B00C9A0E0 /* Inputbar.m in Sources */,
-				160896441BC3F68B00C9A0E0 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

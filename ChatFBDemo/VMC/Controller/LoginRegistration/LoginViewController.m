@@ -9,6 +9,7 @@
 #import "LoginViewController.h"
 #import "FirebaseManager.h"
 #import "HomeViewController.h"
+#import "SVProgressHUD.h"
 
 @interface LoginViewController ()
 
@@ -18,18 +19,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.txtEmail.text = @"a1@gmail.com";
+    self.txtEmail.text = @"k1@gmail.com";
     self.txtPassword.text = @"apple";
-    // Do any additional setup after loading the view.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (IBAction)onLogin:(id)sender {
+    
+    [SVProgressHUD showWithMaskType:SVProgressHUDMaskTypeBlack];
+    
     [[FirebaseManager sharedInstance] loginUserWithEmail:self.txtEmail.text andPassword:self.txtPassword.text withBlock:^(BOOL isSuccess, NSError *error) {
+        
+        [SVProgressHUD dismiss];
+        
         if (isSuccess) {
             NSLog(@"User logined successfully");
             [self showHomeViewController];

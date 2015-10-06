@@ -24,30 +24,20 @@
     [super viewDidLoad];
     conversations = [[NSMutableArray alloc] init];
     
-    //get conversations
     [self getConversations];
     
     self.navigationItem.backBarButtonItem  = nil;
-    // Do any additional setup after loading the view.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 #pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     if ([[segue identifier] isEqualToString:@"userSegue"]) {
         UINavigationController *navigationController = segue.destinationViewController;
         UsersViewController *userViewController = navigationController.viewControllers[0];
         userViewController.delegate = self;
     }
-    
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
 }
 
 -(void)startNewChatWithUser:(NSDictionary *)user {
