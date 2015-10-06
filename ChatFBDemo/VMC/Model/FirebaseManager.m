@@ -10,7 +10,7 @@
 #import <CommonCrypto/CommonDigest.h>
 
 
-#define MAIN_URL                @"https://hushchat.firebaseio.com/"
+#define MAIN_URL                @""
 #define USER_DIRECTORY          @"users/"
 #define MESSAGES_DIRECTORY      @"messages/"
 #define LIST_OF_CONVERSATIONS   @"chats/"
