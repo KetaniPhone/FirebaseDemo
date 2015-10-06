@@ -1,9 +1,9 @@
 //
 //  ViewController.h
-//  ChatFBDemo
+//  HushChat
 //
-//  Created by Ketan on 10/5/15.
-//  Copyright (c) 2015 kETAN pATEL. All rights reserved.
+//  Created by Hiren on 9/30/15.
+//  Copyright (c) 2015 openxcell. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
